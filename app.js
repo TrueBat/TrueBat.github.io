@@ -44,3 +44,28 @@ actions.forEach(action => {
 
     });
 });
+
+const theme = document.querySelector('link');
+
+const themeA = Array.from(
+    document.querySelectorAll('[data-theme]')
+);
+
+themeA.forEach(action => {
+    action.addEventListener('click', () => {
+        const type = action.dataset.theme;
+        console.log(type);
+        switch (type) {
+            case 'dark':
+                theme.href='dark.css'
+                console.log(type);
+                break;
+
+            case 'blind':
+                theme.href='main.css'
+                console.log(type);
+                break;
+        }
+        
+    });
+});

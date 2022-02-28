@@ -2,8 +2,8 @@
   --primary: #d81e5b;
   --secondary: #8a4fff;
   --grey: rgb(138, 138, 138);
-  --main: #eee;
-  --sub: #131a26;
+  --main: #131a26;
+  --sub: rgb(141, 141, 141);
 }
 
 * {
@@ -66,9 +66,7 @@ p {
 }
 
 .btn:hover {
-  background-color: var(--sub);
-  border-radius: 10px;
-  color: var(--main);
+  color: var(--primary);
 }
 
 button {
