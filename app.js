@@ -13,15 +13,15 @@ actions.forEach(action => {
         switch (type) {
             case 'one':
                 score++;
-                alert("eh, do better next time");
+                
                 break;
             case 'two':
                 score++;
                 score++;
-                alert("GOOD JOB KEEP IT FUCKEN UP!!!");
+                
                 break;
             case 'zero':
-                alert("srsly...? anyway ur score was "+score);
+                
                 score=0;
                 break;
             case 'save':
